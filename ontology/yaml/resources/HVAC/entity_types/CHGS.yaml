@@ -16,29 +16,17 @@
 ### Canonical Types  ###
 ########################
 
-ADY_BS_SS:
-  guid: "397629f2-aa58-4c3f-9de1-2897227007b4"
-  description: "Basic air dryer."
+CHGS_SGTC_RGTC_MINFC:
+  description: ""
   is_canonical: true
   implements:
-  - ADY
-  - SS
-  opt_uses:
-  - lost_power_alarm
-  - run_mode
-  - control_mode
-  - schedule_run_command
-  - control_status
+  - CHGS
+  - SGTC
+  - RGTC
+  - MINFC
 
-ADY_SS:
-  description: "Basic air dryer (removed erroneous BS type)"
-  is_canonical: true
-  implements:
-  - ADY
-  - SS
-  opt_uses:
-  - lost_power_alarm
-  - run_mode
-  - control_mode
-  - schedule_run_command
-  - control_status
+###################################
+### Existing Non-standard Types ###
+###################################
+
+# None so far

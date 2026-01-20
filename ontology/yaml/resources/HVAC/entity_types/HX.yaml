@@ -429,3 +429,23 @@ HX_HWDT_PRWISOVPM_PSWTC_SHWISOVPM:
   - PRWISOVPM
   - PSWTC
   - SHWISOVPM
+
+HX_CWDT_CHWDPM_CWSISOVM:
+  description: "Condensing/chilled water heat exchanger with chilled water differential temperature/pressure monitoring and condensing water supply isolation."
+  is_canonical: true
+  implements:
+  - HX
+  - CWDT
+  - CHWDPM
+  - CWSISOVM
+
+HX_CHWDT_PRWDT_CHWDPM_PWDPM_CHWRWISOVPM:
+  description: "Condensing/chilled water heat exchanger with chilled water differential temperature/pressure monitoring and condensing water supply isolation."
+  is_canonical: true
+  implements:
+  - HX
+  - CHWDT
+  - PRWDT
+  - CHWDPM
+  - PWDPM
+  - CHWRWISOVPM

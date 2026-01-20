@@ -5805,6 +5805,46 @@ AHU_DFVSC_DX2ZC_ECONMD_HT2ZC:
   - ECONMD
   - HT2ZC
 
+AHU_DFVSC_CHWDC_ECONZ_DSP_FDPM2X:
+  description: ""
+  is_canonical: true
+  implements:
+  - AHU
+  - DFVSC
+  - CHWDC
+  - ECONZ
+  - DSP
+  - FDPM2X
+
+AHU_SFVSC2X_EFVSC2X_CHWSC_BSPC2X_SSPC_ECON2X_EDBPC2X_RDC_FDPM:
+  description: ""
+  is_canonical: true
+  implements:
+  - AHU
+  - SFVSC2X
+  - EFVSC2X
+  - CHWSC
+  - BSPC2X
+  - SSPC
+  - ECON2X
+  - EDBPC2X
+  - RDC
+  - FDPM
+
+AHU_SFVSC3X_EFVSC3X_CHWSC_BSPC3X_SSPC_ECON2X_RDC_FDPM2X:
+  description: ""
+  is_canonical: true
+  implements:
+  - AHU
+  - SFVSC3X
+  - EFVSC3X
+  - CHWSC
+  - BSPC3X
+  - SSPC
+  - ECON2X
+  - FDPM2X
+  - RDC
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

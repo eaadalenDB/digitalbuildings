@@ -2199,6 +2199,40 @@ FCU_CHWDC_CSP_DFVSC6X:
   - CSP
   - DFVSC6X
 
+
+FCU_DFVSC_CHWRC_ZHC:
+  description: ""
+  is_canonical: true
+  implements:
+  - FCU
+  - DFVSC
+  - CHWRC
+  - ZHC
+
+
+FCU_DFVSC_DSP_CHWDC_HWDC_DSPZDHC2X:
+  description: ""
+  is_canonical: true
+  implements:
+  - FCU
+  - DFVSC
+  - DSP
+  - CHWDC
+  - HWDC
+  - DSPZDHC2X
+  
+
+FCU_DFVSC_DSP_GDC_HWDC_DSPZDHC:
+  description: ""
+  is_canonical: true
+  implements:
+  - FCU
+  - DFVSC
+  - DSP
+  - GDC
+  - HDWC
+  - DSPZDHC
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

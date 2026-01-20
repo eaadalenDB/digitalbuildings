@@ -271,6 +271,7 @@ FAN_SS_DWI:
   implements:
   - FAN
   - SS
+  - DWI
   uses:
   - dishwasher_run_status
 
@@ -842,6 +843,14 @@ FAN_SS_OACSP:
   - FAN
   - SS
   - OACSP
+
+FAN_VSC_EPC:
+  description: ""
+  is_canonical: true
+  implements:
+  - FAN
+  - VSC
+  - EPC
 
 ###################################
 ### Existing Non-standard Types ###

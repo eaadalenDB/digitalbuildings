@@ -286,6 +286,26 @@ CDWS_SWTC_WFRM_MWFRM_BWFRM:
   - MWFRM
   - BWFRM
 
+CDWS_RWTC_BWFRM_BYPVPM_MWFRM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CDWS
+  - RWTC
+  - BWFRM
+  - BYPVPM
+  - MWFRM
+
+CDWS_RWTC_BWFRM_MWFRM_WSEBYPVPM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CDWS
+  - RWTC
+  - BWFRM
+  - MWFRM
+  - WSEBYPVPM
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

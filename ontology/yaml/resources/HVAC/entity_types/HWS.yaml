@@ -560,6 +560,16 @@ HWS_SWTC_WDPC_MMHWDPC_WFRM:
   - MMHWDPC
   - WFRM
 
+HWS_SWTC_WDPC_WFRM_MINFC:
+  description: ""
+  is_canonical: true
+  implements:
+  - HWS
+  - SWTC
+  - WDPC
+  - WFRM
+  - MINFC
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

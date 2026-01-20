@@ -452,7 +452,7 @@ VAV_SD_ZSPC:
 VAV_ED:
   guid: "9fc088db-123e-4aba-9e97-2aa90df1d3cd"
   description: "Exhaust control VAV."
-  is_canonical: true
+  is_canonical: truefhwdc
   implements:
   - VAV
   - ED

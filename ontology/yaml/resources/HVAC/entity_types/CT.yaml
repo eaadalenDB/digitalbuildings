@@ -294,6 +294,18 @@ CT_SS_SWTC_CWBYPVPM:
   - SWTC
   - CWBYPVPM
 
+CT_SS_VSC_RWTC_SWISOVM_RWISOVM_DWVC:
+  description: ""
+  is_canonical: true
+  implements:
+  - CT
+  - SS
+  - VSC
+  - RWTC
+  - SWISOVM
+  - RWISOVM
+  - DWVC
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

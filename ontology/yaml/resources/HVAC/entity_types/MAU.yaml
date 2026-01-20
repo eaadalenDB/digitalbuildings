@@ -1130,6 +1130,23 @@ MAU_DFVSC_DSPM_CHWDDC_OAMC_OA:
   - OAMC
   - OA
 
+MAU_DFVSC_ECCDC_OA:
+  description: ""
+  is_canonical: true
+  implements:
+  - MAU
+  - DFVSC
+  - ECCDC
+  - OA
+
+MAU_DFVSC_SFM:
+  description: ""
+  is_canonical: true
+  implements:
+  - MAU
+  - DFVSC
+  - SFM
+
 ###################################
 ### Existing Non-standard Types ###
 ###################################

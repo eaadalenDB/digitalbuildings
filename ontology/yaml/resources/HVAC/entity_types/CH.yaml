@@ -1272,6 +1272,76 @@ CH_SS_SWTC_DXSWC_WFRM:
   - DXSWC
   - WFRM
 
+CH_VSC_CHWDT_CWDT_CHDXSC_CHWSWISOVPM_CWSWISOVPM_REFPM_REFSM_OTPM_IGM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - VSC
+  - CHWDT
+  - CWDT
+  - CHDXSC
+  - CHWSWISOVPM
+  - CWSWISOVPM
+  - REFPM
+  - REFSM
+  - OTPM
+  - IGM
+
+CH_SS_CWDT_CHDXVSC2X_CHWRWISOVPM_CWSWISOVPM_RCKTM2X:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - SS
+  - CWDT
+  - CHDXVSC2X
+  - CHWRWISOVPM
+  - CWSWISOVPM
+  - RCKTM2X
+
+CH_SS_CWDT_CHDXVSCSC_CHWRWISOVPM_CWSWISOVPM_REFPM_OTPM_IGM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - SS
+  - CWDT
+  - CHDXVSCSC
+  - CHWRWISOVPM
+  - CWSWISOVPM
+  - REFPM
+  - OTPM
+  - IGM
+
+CH_SS_DX12SWC_WDT:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - SS
+  - DX12SWC
+  - WDT
+
+CH_SS_PSWTC_PRWISOVM_CWSWISOVM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - SS
+  - PSWTC
+  - PRWISOVM
+  - CWSWISOVM
+
+CH_SS_SGTC_CHGRWISOVM_CWSWISOVM:
+  description: ""
+  is_canonical: true
+  implements:
+  - CH
+  - SS
+  - SGTC
+  - CHGRWISOVM
+  - CWSWISOVM
 
 ###################################
 ### Existing Non-standard Types ###
